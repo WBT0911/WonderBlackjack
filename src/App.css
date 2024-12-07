@@ -1,0 +1,288 @@
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-side{
+  display: flex;
+  flex-direction: row;
+}
+.col-md-6{
+  width: 50%;
+}
+
+/* .dealerIcon{
+  background-color: white;
+  color : black;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.dealerIcon::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+} */
+
+.tableTh{
+  cursor: pointer;
+  width: 8%;
+  text-align: center;
+}
+.tableTd{
+  width: 8%;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.tableFirst{
+  width : 60px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  line-height: 60px;
+  text-align: center;
+}
+.tableHardFirst{
+  width : 60px;
+  text-align: center;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.tableSoftFirst{
+  width : 60px;
+  text-align: center;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.tablePairFirst{
+  width : 60px;
+  text-align: center;
+  cursor: pointer;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.whiteColor {
+  font-weight: bolder;
+  color: white;
+}
+.blackColor{
+  color: black;
+}
+.greyColor{
+  color: #3f3f3f;
+}
+.redBack{
+  background-color: red;
+}
+.blackBack{
+  background-color: black;
+}
+.dodgerBack{
+  background-color: dodgerblue;
+}
+.blueBack{
+  background-color: blue;
+}
+.pinkBack{
+  background-color: pink;
+}
+.greenBack{
+  background-color: green;
+}
+.reset{
+  cursor: pointer;
+}
+.result{
+  width: 50%;
+}
+.dealerResult .col-md-6{
+  text-align:center;
+}
+.dealerResult select{
+  height: 40px;
+  width: 100%;
+}
+
+.playerResult .col-md-12 select{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.playerResult .col-md-12 .col-md-2{
+  width: 16.66667%;
+}
+.playerResult .col-md-12 .col-md-4{
+  width: 33.33333%;
+}
+.playerResult .col-md-12 .col-md-6{
+  text-align: center;
+}
+input[type='checkbox'] {
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.yellowColor{
+  color: yellow;
+  font-weight: bolder;
+}
+.backImg{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.fixTab{
+  position: fixed;
+  z-index: 1;
+  top: 11.11111%;
+  left : 9.99999%;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 25px;
+  overflow-y: auto;
+}
+.fixTab::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+.dealerHead1{
+  position: fixed;
+  left: 10vw;
+  width: 600px;
+  top: 2vh;
+}
+.dealerHead1 .flex-row{
+  justify-content: flex-start;
+}
+.dealerBody1{
+  position: fixed;
+  left: 4vw;
+  top: 12vh;
+}
+.dealerBody1 .tableRow .tableHardFirst{
+  margin-right: 4vw;
+  width: 30px;
+  height: 30px;
+}
+
+.dealerBody1 .tableRow .tableHardFirst img{
+  width: 100%;
+  height: 100%;
+}
+.tableTd{
+  line-height: 15px;
+  font-size: 15px;
+  width: 55px;
+}
+.dealerBody1 .tableTd{
+  width: 56px;
+}
+.softBody1 .tableTd{
+  width: 56px;
+}
+.dealerIcon {
+  width: 55px;
+  height: 55px;
+}
+.dealerIcon img{
+  width: 100%;
+  height: 100%;
+}
+.dealerHead2{
+  position: fixed;
+  top : 2vh;
+  left : 50vw;
+}
+.dealerBody2{
+  top: 12vh;
+  position: fixed;
+  left: calc(50vw - 30px);
+}
+.dealerBody2 .tableRow .tablePairFirst{
+  width: 30px;
+  height : 30px;
+  line-height: 30px;
+}
+.dealerBody2 .tableRow .tablePairFirst img{
+  width: 100%
+}
+.softBody1{
+  position: fixed;
+  left: 4vw;
+  bottom: 30px;
+}
+.softBody1 .tableRow .tableSoftFirst{
+  margin-right: 4vw;
+  width: 30px;
+  height: 30px;
+}
+
+.softBody1 .tableRow .tableSoftFirst img{
+  width: 100%;
+  height: 100%;
+}
+.btnGroup{
+  position: fixed;
+  right: 5vw;
+  top: 12vh;
+  display: flex;
+  flex-direction: row;
+}
+.btnGroup div{
+  width: 60px;
+}
+.btnGroup div img{
+  width: 100%;
+}
+.result{
+  top: calc(12vh + 100px);
+  position: fixed;
+  right: 0;
+  width: 15vw;
+}
+.result h3{
+  color: white;
+}
+.buymeacoffee{
+  position : fixed;
+  top: calc(12vh + 360px);
+  right : 7vw;
+  width: 100px;
+  height: 100px;
+}
+.buymeacoffee img{
+  width: 100%;
+  height: 100%;
+}
